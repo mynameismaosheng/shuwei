@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>粒子</title>
+</head>
+<body>
+<h1>王六啊!!</h1>
+
+<script charset="Shift_JIS" src="honehone_clock_tr.js"></script>
+
+	<script type="text/javascript">
+		window.onload = function(){
+			var config = {
+				vx: 2,
+				vy:  2,
+				height: 3,
+				width: 4,
+				count: 300,
+				color: "255, 162, 185",
+				stroke: "100,200,180",
+				dist: 7000,
+				e_dist: 20000,
+				max_conn: 10
+			}
+			CanvasParticle(config);
+		}
+	</script>
+	
+
+	<script type="text/javascript" src="canvas-particle.js"></script>
+</body>
+</html>
