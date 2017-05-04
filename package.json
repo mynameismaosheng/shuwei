@@ -7,8 +7,8 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "Bugs": {
-    "email" :"982431279@qq.com"
-   },
+    "email": "982431279@qq.com"
+  },
   "repository": {
     "type": "git",
     "url": "https://git.coding.net/Maunsell/vue.git"
@@ -17,5 +17,10 @@
     "vue"
   ],
   "author": "Maunsell",
-  "license": "ISC"
+  "license": "ISC",
+  "devDependencies": {
+    "browser-sync": "^2.18.8",
+    "gulp": "^3.9.1",
+    "gulp-sass": "^3.1.0"
+  }
 }
